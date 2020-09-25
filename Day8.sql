@@ -38,3 +38,9 @@ WHERE itemno>0;
 
 SELECT *
 FROM Daniel;
+
+SELECT ROUND(SUM(totalPrice), 0) AS TOTALAMT
+FROM Day6;
+
+SELECT SUM(ROUND(totalPrice, 0)) AS TOTALAMT
+FROM Day6;
