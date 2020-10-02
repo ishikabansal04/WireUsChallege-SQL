@@ -1,9 +1,9 @@
--- CREATE TABLE Day15(
---     Rollno int,
---     Fname VARCHAR(255),
---     Section int,
---     Grade VARCHAR(255)
--- );
+ CREATE TABLE Day15(
+     Rollno int,
+     Fname VARCHAR(255),
+     Section int,
+     Grade VARCHAR(255)
+ );
 
 INSERT INTO Day15
 VALUES(101, 'Thomas', 3, 'A');
