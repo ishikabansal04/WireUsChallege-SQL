@@ -1,11 +1,11 @@
--- CREATE TABLE TABLE1(
---     ID int,
---     f_name VARCHAR(255),
---     l_name VARCHAR(255),
---     salary int,
---     joining_date DATETIME,
---     department VARCHAR(255),
--- );
+CREATE TABLE TABLE1(
+    ID int,
+    f_name VARCHAR(255),
+    l_name VARCHAR(255),
+    salary int,
+    joining_date DATETIME,
+    department VARCHAR(255),
+);
 
 INSERT INTO TABLE1
 VALUES(001, 'Monika', 'Arora', 100000, '2014-02-20 09:00:00', 'HR');
